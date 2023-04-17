@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B959818329EDAB0D0015D52D /* characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818229EDAB0D0015D52D /* characters.swift */; };
+		B959818629EDABD30015D52D /* RowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818529EDABD30015D52D /* RowMenu.swift */; };
+		B959818829EDAEE30015D52D /* LIstMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818729EDAEE30015D52D /* LIstMenu.swift */; };
+		B959818A29EDB0DA0015D52D /* ListDetailMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818929EDB0DA0015D52D /* ListDetailMenu.swift */; };
+		B959818D29EDC1EF0015D52D /* RowPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818C29EDC1EE0015D52D /* RowPersonajes.swift */; };
+		B959818F29EDC2040015D52D /* ListPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818E29EDC2040015D52D /* ListPersonajes.swift */; };
+		B959819129EDC2180015D52D /* ListDetailPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959819029EDC2180015D52D /* ListDetailPersonajes.swift */; };
+		B959819529EDC34F0015D52D /* RowLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959819429EDC34F0015D52D /* RowLocation.swift */; };
+		B959819729EDC3590015D52D /* ListLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959819629EDC3590015D52D /* ListLocation.swift */; };
+		B959819929EDC36D0015D52D /* ListDeteilLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959819829EDC36D0015D52D /* ListDeteilLocation.swift */; };
 		B974A4DF29ED95A600C15C4A /* DeimosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974A4DE29ED95A600C15C4A /* DeimosApp.swift */; };
 		B974A4E129ED95A600C15C4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974A4E029ED95A600C15C4A /* ContentView.swift */; };
 		B974A4E329ED95A700C15C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B974A4E229ED95A700C15C4A /* Assets.xcassets */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B959818229EDAB0D0015D52D /* characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characters.swift; sourceTree = "<group>"; };
+		B959818529EDABD30015D52D /* RowMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMenu.swift; sourceTree = "<group>"; };
+		B959818729EDAEE30015D52D /* LIstMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstMenu.swift; sourceTree = "<group>"; };
+		B959818929EDB0DA0015D52D /* ListDetailMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailMenu.swift; sourceTree = "<group>"; };
+		B959818C29EDC1EE0015D52D /* RowPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowPersonajes.swift; sourceTree = "<group>"; };
+		B959818E29EDC2040015D52D /* ListPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPersonajes.swift; sourceTree = "<group>"; };
+		B959819029EDC2180015D52D /* ListDetailPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailPersonajes.swift; sourceTree = "<group>"; };
+		B959819429EDC34F0015D52D /* RowLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowLocation.swift; sourceTree = "<group>"; };
+		B959819629EDC3590015D52D /* ListLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLocation.swift; sourceTree = "<group>"; };
+		B959819829EDC36D0015D52D /* ListDeteilLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDeteilLocation.swift; sourceTree = "<group>"; };
 		B974A4DB29ED95A600C15C4A /* Deimos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deimos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B974A4DE29ED95A600C15C4A /* DeimosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeimosApp.swift; sourceTree = "<group>"; };
 		B974A4E029ED95A600C15C4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +91,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B959817F29EDAA940015D52D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B959818229EDAB0D0015D52D /* characters.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B959818429EDABA80015D52D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B959818529EDABD30015D52D /* RowMenu.swift */,
+				B959818729EDAEE30015D52D /* LIstMenu.swift */,
+				B959818929EDB0DA0015D52D /* ListDetailMenu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B959818B29EDC1C20015D52D /* Personajes */ = {
+			isa = PBXGroup;
+			children = (
+				B959818C29EDC1EE0015D52D /* RowPersonajes.swift */,
+				B959818E29EDC2040015D52D /* ListPersonajes.swift */,
+				B959819029EDC2180015D52D /* ListDetailPersonajes.swift */,
+			);
+			path = Personajes;
+			sourceTree = "<group>";
+		};
+		B959819329EDC31B0015D52D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				B959819429EDC34F0015D52D /* RowLocation.swift */,
+				B959819629EDC3590015D52D /* ListLocation.swift */,
+				B959819829EDC36D0015D52D /* ListDeteilLocation.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		B974A4D229ED95A600C15C4A = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +152,12 @@
 		B974A4DD29ED95A600C15C4A /* Deimos */ = {
 			isa = PBXGroup;
 			children = (
+				B959817F29EDAA940015D52D /* Data */,
 				B974A4DE29ED95A600C15C4A /* DeimosApp.swift */,
 				B974A4E029ED95A600C15C4A /* ContentView.swift */,
+				B959819329EDC31B0015D52D /* Location */,
+				B959818B29EDC1C20015D52D /* Personajes */,
+				B959818429EDABA80015D52D /* Menu */,
 				B974A4E229ED95A700C15C4A /* Assets.xcassets */,
 				B974A4E429ED95A700C15C4A /* Preview Content */,
 			);
@@ -258,7 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B974A4E129ED95A600C15C4A /* ContentView.swift in Sources */,
+				B959819729EDC3590015D52D /* ListLocation.swift in Sources */,
+				B959818A29EDB0DA0015D52D /* ListDetailMenu.swift in Sources */,
+				B959818629EDABD30015D52D /* RowMenu.swift in Sources */,
 				B974A4DF29ED95A600C15C4A /* DeimosApp.swift in Sources */,
+				B959818829EDAEE30015D52D /* LIstMenu.swift in Sources */,
+				B959818F29EDC2040015D52D /* ListPersonajes.swift in Sources */,
+				B959819929EDC36D0015D52D /* ListDeteilLocation.swift in Sources */,
+				B959818D29EDC1EF0015D52D /* RowPersonajes.swift in Sources */,
+				B959819529EDC34F0015D52D /* RowLocation.swift in Sources */,
+				B959818329EDAB0D0015D52D /* characters.swift in Sources */,
+				B959819129EDC2180015D52D /* ListDetailPersonajes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
