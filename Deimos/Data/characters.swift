@@ -17,6 +17,7 @@ struct characters1{
 struct personas{
     var id: Int
     var avatar: Image
+    var titulo: String
     var descripcion: String
     
 }

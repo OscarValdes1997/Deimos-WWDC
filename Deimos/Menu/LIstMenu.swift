@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LIstMenu: View {
-    private let menu = [characters1(id: 1, avatar: Image("deimos"), description: " Personajes"),
+    private let menu = [characters1(id: 1, avatar: Image("deimos"), description: " Personajessss"),
                         characters1(id: 2, avatar: Image("brujoc"), description: " Locaciones"),
                         characters1(id: 3, avatar: Image("deimos"), description: " Historia")]
     
@@ -16,25 +16,35 @@ struct LIstMenu: View {
             NavigationStack{
                 
                 ZStack{
-                     //Color.black.edgesIgnoringSafeArea(.all)//cambiar de color en fondo
+                    //Color.black.edgesIgnoringSafeArea(.all)//cambiar de color en fondo
                     
-                    
-                    List(menu, id: \.id){ characters1 in
-                        
-                        NavigationLink(destination:ListDetailMenu(menuList: characters1)){
+                    VStack{
+                        List(menu, id: \.id){ characters1 in
                             
-                            RowMenu(charactersRow: characters1)
-                            
+                            NavigationLink(destination:ListDetailMenu(menuList: characters1)){
+                                
+                                RowMenu(charactersRow: characters1)
+                                
+                            }
+                            .listRowBackground(Color.black) // cambiar color de la lista donde das el clic
                         }
-                        .listRowBackground(Color.black) // cambiar color de la lista donde das el clic
+                        List(menu, id: \.id){ characters1 in
+                            
+                            NavigationLink(destination:ListDetailMenu(menuList: characters1)){
+                                
+                                RowMenu(charactersRow: characters1)
+                                
+                            }
+                            .listRowBackground(Color.black) // cambiar color de la lista donde das el clic
+                            
+                        }.navigationBarTitle(Text("Menu")).navigationBarHidden(false).foregroundColor(.red)
+                            .foregroundColor(Color.red)
+                            .background(Color.black.opacity(0.90))
                         
-                    }.navigationBarTitle(Text("Menu")).navigationBarHidden(false).foregroundColor(.red)
-                        .foregroundColor(Color.red)
-                        .background(Color.black.opacity(0.90))
-                    
-                    .scrollContentBackground(.hidden)//quitar fondo de las listar
-                    
-                }//.background(Color.black.opacity(0.90))//Zstack cierre
+                            .scrollContentBackground(.hidden)//quitar fondo de las listar
+                        
+                    }//.background(Color.black.opacity(0.90))//Zstack cierre
+                }
         }
     }
 }

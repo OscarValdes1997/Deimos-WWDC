@@ -33,6 +33,6 @@ struct RowMenu: View {
 
 struct RowMenu_Previews: PreviewProvider {
     static var previews: some View {
-        RowMenu(charactersRow: characters1.init(id: 1, avatar: Image(systemName: "person.fill"), description: "Hola master"))
+        RowMenu(charactersRow: characters1.init(id: 1, avatar: Image(systemName: "person.fill"),description: "Hola master"))
     }
 }
