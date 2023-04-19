@@ -24,6 +24,14 @@
 		B974A4F029ED95A700C15C4A /* DeimosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974A4EF29ED95A700C15C4A /* DeimosTests.swift */; };
 		B974A4FA29ED95A700C15C4A /* DeimosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974A4F929ED95A700C15C4A /* DeimosUITests.swift */; };
 		B974A4FC29ED95A700C15C4A /* DeimosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974A4FB29ED95A700C15C4A /* DeimosUITestsLaunchTests.swift */; };
+		B97F8EEB29F046FA00449C7A /* ListaLocaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EEA29F046FA00449C7A /* ListaLocaciones.swift */; };
+		B97F8EED29F04F5300449C7A /* deteillocalizacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EEC29F04F5300449C7A /* deteillocalizacion.swift */; };
+		B97F8EF029F05B0300449C7A /* deteilHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EEF29F05B0300449C7A /* deteilHistory.swift */; };
+		B97F8EF229F05B1500449C7A /* RowHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EF129F05B1500449C7A /* RowHistory.swift */; };
+		B97F8EF429F05D9700449C7A /* ListHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EF329F05D9700449C7A /* ListHistory.swift */; };
+		B97F8EF629F05F4600449C7A /* detallesHistoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EF529F05F4600449C7A /* detallesHistoria.swift */; };
+		B97F8EF829F064C700449C7A /* credenciales.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EF729F064C700449C7A /* credenciales.swift */; };
+		B97F8EFA29F067E600449C7A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F8EF929F067E600449C7A /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,14 @@
 		B974A4F529ED95A700C15C4A /* DeimosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeimosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B974A4F929ED95A700C15C4A /* DeimosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeimosUITests.swift; sourceTree = "<group>"; };
 		B974A4FB29ED95A700C15C4A /* DeimosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeimosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B97F8EEA29F046FA00449C7A /* ListaLocaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLocaciones.swift; sourceTree = "<group>"; };
+		B97F8EEC29F04F5300449C7A /* deteillocalizacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deteillocalizacion.swift; sourceTree = "<group>"; };
+		B97F8EEF29F05B0300449C7A /* deteilHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deteilHistory.swift; sourceTree = "<group>"; };
+		B97F8EF129F05B1500449C7A /* RowHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowHistory.swift; sourceTree = "<group>"; };
+		B97F8EF329F05D9700449C7A /* ListHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHistory.swift; sourceTree = "<group>"; };
+		B97F8EF529F05F4600449C7A /* detallesHistoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detallesHistoria.swift; sourceTree = "<group>"; };
+		B97F8EF729F064C700449C7A /* credenciales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credenciales.swift; sourceTree = "<group>"; };
+		B97F8EF929F067E600449C7A /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +140,9 @@
 			children = (
 				B959819429EDC34F0015D52D /* RowLocation.swift */,
 				B959819629EDC3590015D52D /* ListLocation.swift */,
+				B97F8EEA29F046FA00449C7A /* ListaLocaciones.swift */,
 				B959819829EDC36D0015D52D /* ListDeteilLocation.swift */,
+				B97F8EEC29F04F5300449C7A /* deteillocalizacion.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -155,6 +173,9 @@
 				B959817F29EDAA940015D52D /* Data */,
 				B974A4DE29ED95A600C15C4A /* DeimosApp.swift */,
 				B974A4E029ED95A600C15C4A /* ContentView.swift */,
+				B97F8EF729F064C700449C7A /* credenciales.swift */,
+				B97F8EF929F067E600449C7A /* Error.swift */,
+				B97F8EEE29F05ADE00449C7A /* History */,
 				B959819329EDC31B0015D52D /* Location */,
 				B959818B29EDC1C20015D52D /* Personajes */,
 				B959818429EDABA80015D52D /* Menu */,
@@ -187,6 +208,17 @@
 				B974A4FB29ED95A700C15C4A /* DeimosUITestsLaunchTests.swift */,
 			);
 			path = DeimosUITests;
+			sourceTree = "<group>";
+		};
+		B97F8EEE29F05ADE00449C7A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B97F8EEF29F05B0300449C7A /* deteilHistory.swift */,
+				B97F8EF129F05B1500449C7A /* RowHistory.swift */,
+				B97F8EF329F05D9700449C7A /* ListHistory.swift */,
+				B97F8EF529F05F4600449C7A /* detallesHistoria.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,13 +353,21 @@
 			files = (
 				B974A4E129ED95A600C15C4A /* ContentView.swift in Sources */,
 				B959819729EDC3590015D52D /* ListLocation.swift in Sources */,
+				B97F8EF829F064C700449C7A /* credenciales.swift in Sources */,
 				B959818A29EDB0DA0015D52D /* ListDetailMenu.swift in Sources */,
 				B959818629EDABD30015D52D /* RowMenu.swift in Sources */,
+				B97F8EF029F05B0300449C7A /* deteilHistory.swift in Sources */,
+				B97F8EF229F05B1500449C7A /* RowHistory.swift in Sources */,
 				B974A4DF29ED95A600C15C4A /* DeimosApp.swift in Sources */,
+				B97F8EFA29F067E600449C7A /* Error.swift in Sources */,
+				B97F8EEB29F046FA00449C7A /* ListaLocaciones.swift in Sources */,
 				B959818829EDAEE30015D52D /* LIstMenu.swift in Sources */,
 				B959818F29EDC2040015D52D /* ListPersonajes.swift in Sources */,
 				B959819929EDC36D0015D52D /* ListDeteilLocation.swift in Sources */,
 				B959818D29EDC1EF0015D52D /* RowPersonajes.swift in Sources */,
+				B97F8EF629F05F4600449C7A /* detallesHistoria.swift in Sources */,
+				B97F8EF429F05D9700449C7A /* ListHistory.swift in Sources */,
+				B97F8EED29F04F5300449C7A /* deteillocalizacion.swift in Sources */,
 				B959819529EDC34F0015D52D /* RowLocation.swift in Sources */,
 				B959818329EDAB0D0015D52D /* characters.swift in Sources */,
 				B959819129EDC2180015D52D /* ListDetailPersonajes.swift in Sources */,

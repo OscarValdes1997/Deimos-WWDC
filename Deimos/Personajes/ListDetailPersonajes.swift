@@ -17,7 +17,9 @@ struct ListDetailPersonajes: View {
             VStack{
                 personasList.avatar.resizable().frame(width: 150, height: 150).clipShape(Circle()).overlay(Circle().stroke(Color.black, lineWidth: 4)).shadow(color: Color.red, radius: 5)
                 
-                Text(personasList.descripcion).font(.largeTitle).foregroundColor(Color.red).shadow(color: Color.gray, radius: 5)
+                Text(personasList.titulo).font(.largeTitle).foregroundColor(Color.red).shadow(color: Color.gray, radius: 5)
+                Spacer()
+                Text(personasList.descripcion).foregroundColor(Color.red)
                 Spacer()
             }.padding()
         }

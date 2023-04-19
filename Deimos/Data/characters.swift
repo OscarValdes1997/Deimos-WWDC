@@ -25,11 +25,13 @@ struct personas{
 struct lugares{
     var id: Int
     var lugar: Image
+    var titulo: String
     var descripcion: String
 }
 
 struct historia{
     var id: Int
+    var titulo: String
     var descripcion: String
     
 }

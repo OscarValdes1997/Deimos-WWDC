@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var email = "313227743@pcpuma.acatlan.unam.mx"
-    @State var password = "Halo4cuatro@"
+    
+    @State var isModal: Bool = false
+    
+    @State var email = "123456789"
+    @State var password = "987654321"
     
     
-    @State var email_reg = "313227743@pcpuma.acatlan.unam.mx"
-    @State var password_reg = "Halo4cuatro@"
+    @State var email_reg = "123456789"
+    @State var password_reg = "987654321"
     
     var body: some View {
         NavigationStack{
@@ -59,24 +62,11 @@ struct ContentView: View {
                         
                         NavigationLink{
                             
-                            LIstMenu()
-                            // mmste()
-                            
-                        } label: {
-                            
-                            Text("¿Olvidaste tu contraseña?")
-                                .fontWeight(.bold)
-                                .foregroundColor(.red)
-                        }
-                        .frame(maxWidth: .infinity, alignment: .trailing)
-                        .padding()
-                        
-                        NavigationLink{
-                            
                             if (email  == email_reg && password == password_reg){
                                 LIstMenu()
                             }else{
-                                LIstMenu()
+                                
+                               Error()
                                 // InfoView()
                             }
                             
@@ -88,6 +78,17 @@ struct ContentView: View {
                                 .padding()
                                 .shadow(color: .white, radius:1)
                         }
+                        
+                        
+                        Button("INFO") {
+                           
+                                self.isModal = true
+                            }.sheet(isPresented: $isModal, content: {
+                                LoginView()
+                            })
+                            .fontWeight(.bold)
+                         
+                        
                         
                     }.padding()
                 }
