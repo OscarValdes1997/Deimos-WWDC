@@ -12,7 +12,7 @@ struct RowPersonajes: View {
     
     var body: some View {
         ZStack{
-            Color.black.edgesIgnoringSafeArea(.all)//cambiar de color en fondo
+           // Color.black.edgesIgnoringSafeArea(.all)//cambiar de color en fondo
             HStack{
                 personas1.avatar.resizable().frame(width: 50, height: 50)
                     .clipShape(Circle())

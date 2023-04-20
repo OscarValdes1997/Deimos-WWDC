@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B909132F29F1C6CB003861C3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909132E29F1C6CB003861C3 /* SwiftUIView.swift */; };
 		B959818329EDAB0D0015D52D /* characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818229EDAB0D0015D52D /* characters.swift */; };
 		B959818629EDABD30015D52D /* RowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818529EDABD30015D52D /* RowMenu.swift */; };
 		B959818829EDAEE30015D52D /* LIstMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959818729EDAEE30015D52D /* LIstMenu.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B909132E29F1C6CB003861C3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B959818229EDAB0D0015D52D /* characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characters.swift; sourceTree = "<group>"; };
 		B959818529EDABD30015D52D /* RowMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMenu.swift; sourceTree = "<group>"; };
 		B959818729EDAEE30015D52D /* LIstMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstMenu.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				B959818529EDABD30015D52D /* RowMenu.swift */,
 				B959818729EDAEE30015D52D /* LIstMenu.swift */,
+				B909132E29F1C6CB003861C3 /* SwiftUIView.swift */,
 				B959818929EDB0DA0015D52D /* ListDetailMenu.swift */,
 			);
 			path = Menu;
@@ -359,6 +362,7 @@
 				B97F8EF029F05B0300449C7A /* deteilHistory.swift in Sources */,
 				B97F8EF229F05B1500449C7A /* RowHistory.swift in Sources */,
 				B974A4DF29ED95A600C15C4A /* DeimosApp.swift in Sources */,
+				B909132F29F1C6CB003861C3 /* SwiftUIView.swift in Sources */,
 				B97F8EFA29F067E600449C7A /* Error.swift in Sources */,
 				B97F8EEB29F046FA00449C7A /* ListaLocaciones.swift in Sources */,
 				B959818829EDAEE30015D52D /* LIstMenu.swift in Sources */,
